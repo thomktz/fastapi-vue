@@ -5,6 +5,6 @@ module.exports = defineConfig({
     host: '0.0.0.0',
     port: 8080, // default port for Vue.js development server
     allowedHosts: "all",
-    https: true,
+    server: 'https',
   },
 })
